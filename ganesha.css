@@ -1,0 +1,242 @@
+body {
+	background: #47d5ee;
+}
+
+.ganesha {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	margin-top: 10%;
+	border: 15px solid #d6d6d6;
+	padding: 20px;
+}
+
+.mugat-top {
+	position: absolute;
+	top: 18%;
+	left: 45%;
+	width: 10%;
+	height: 10%;
+	background: #fccf78;
+	clip-path: polygon(0 50%, 50% 0, 100% 50%, 50% 100%);
+	z-index: 3;
+}
+
+.mugat-top-circle {
+	position: absolute;
+	width: 5%;
+	height: 5%;
+	background: #fde2af;
+	border-radius: 50%;
+	top: 20.5%;
+	left: 47.5%;
+	z-index: 5;
+}
+
+.mugat-bottom {
+	position: absolute;
+	top: 23%;
+	left: 35%;
+	height: 30%;
+	width: 30%;
+	background: #fccf78;
+	clip-path: polygon(0 50%, 50% 0, 100% 50%, 50% 100%);
+	z-index: 2;
+}
+
+.mugat-bottom-circle-1 {
+	position: absolute;
+	width: 5%;
+	height: 5%;
+	background: #fde2af;
+	border-radius: 50%;
+	top: 30%;
+	left: 47.5%;
+	z-index: 2;
+}
+
+.mugat-bottom-circle-2 {
+	position: absolute;
+	width: 5%;
+	height: 5%;
+	background: #fde2af;
+	border-radius: 50%;
+	top: 35%;
+	left: 40%;
+	z-index: 2;
+}
+
+.mugat-bottom-circle-3 {
+	position: absolute;
+	width: 5%;
+	height: 5%;
+	background: #fde2af;
+	border-radius: 50%;
+	top: 35%;
+	right: 40%;
+	z-index: 2;
+}
+
+.face-upper {
+	position: absolute;
+	top: 38%;
+	left: 42.5%;
+	width: 15%;
+	height: 15%;
+	background: #91663c;
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+	z-index: 3;
+}
+
+.face-bottom {
+	position: absolute;
+	top: 38%;
+	left: 42.5%;
+	width: 15%;
+	height: 25%;
+	background: #91663c;
+	z-index: 1;
+	box-shadow: 0px 0px 8px -5px black;
+}
+
+.trishool {
+	position: absolute;
+	top: 44.5%;
+	left: 47.5%;
+	width: 5%;
+	height: 4%;
+	background: #fccf78;
+	z-index: 3;
+	clip-path: polygon(45% 5%, 45% 60%, 30% 60%, 30% 15%, 8% 0%, 0% 8%, 20% 20%, 20% 70%, 45% 70%, 45% 100%, 55% 100%, 55% 70%, 80% 70%, 80% 20%, 100% 8%, 92% 0%, 70% 15%, 70% 60%, 55% 60%, 55% 5%);
+}
+
+.eye-left, .eye-right {
+	position: absolute;
+	top: 51%;
+	left: 45%;
+	width: 2%;
+	height: 2%;
+	border-radius: 50%;
+	background: #eaeaea;
+	z-index: 3;
+}
+
+.eye-right {
+	left: 52.5%;
+}
+
+.ears {
+	position: absolute;
+	top: 38%;
+	left: 33%;
+	width: 34%;
+	height: 25%;
+	clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+	background: #91663c;
+	z-index: 0;
+	box-shadow: 0px 0px 8px -5px black;
+}
+
+.ear-left-kundal, .ear-right-kundal {
+	position: absolute;
+	width: 2%;
+	height: 2%;
+	background: #fde2af;
+	border-radius: 50%;
+	top: 56%;
+	left: 38%;
+	z-index: 2;
+}
+
+.ear-right-kundal {
+	left: 60%;
+}
+
+.tusks {
+	position: absolute;
+	top: 50.5%;
+	left: 35%;
+	width: 30%;
+	height: 12%;
+	clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+	background: #eaeaea;
+	z-index: 0;
+	box-shadow: 0px 0px 8px -5px black;
+}
+
+.trunk {
+	position: absolute;
+	height: 21%;
+	width: 25%;
+	background: #91663c;
+	border-radius: 0 0 100% 0;
+	z-index: 1;
+	top: 63%;
+	left: 32.5%;
+	box-shadow: 0px 4px 9px -6px black;
+}
+
+.trunk:before {
+	content: "";
+	display: block;
+	position: absolute;
+	border-radius: 0 0 70%;
+	width: 100%;
+	height: 95%;
+	background-color: #47d5ee;
+	right: 60%;
+	top: 0%;
+}
+
+.trunk-tilak-1, .trunk-tilak-2, .trunk-tilak-3 {
+	position: absolute;
+	top: 62%;
+	left: 46.5%;
+	width: 7%;
+	height: 1%;
+	border-radius: 5px;
+	background: #fccf78;
+	z-index: 3;
+}
+
+.trunk-tilak-2 {
+	top: 65%;
+	left: 47%;
+	width: 6%;
+}
+
+.trunk-tilak-3 {
+	top: 68%;
+	left: 47.5%;
+	width: 5%;
+}
+
+.caption {
+	position: absolute;
+	top: 2%;
+	width: 53%;
+	height: 10%;
+	left: 25%;
+}
+
+.caption::after {
+	content: "Ganpati Bapa";
+	font-family: 'Handlee', cursive;
+	color: #fccf78;
+	font-size: 2.6vw;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	font-weight: bolder;
+}
+
+.developed-by {
+	color: #91663c;
+	font-family: 'Handlee';
+	font-size: 0.8vw;
+	text-align: right;
+	position: absolute;
+	right: 38%;
+    bottom: -2.7%;
+}
